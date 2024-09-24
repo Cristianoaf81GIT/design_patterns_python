@@ -3,7 +3,7 @@
 
 ### factory method: 
  
- ![alt ilustration](https://refactoring.guru/images/patterns/diagrams/factory-method/example.png, "from refactoring Guru")  
+ ![alt ilustration](./img/example.png, "from refactoring Guru")  
 
 ```bash
 
