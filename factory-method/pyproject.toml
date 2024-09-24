@@ -1,0 +1,8 @@
+[project]
+name = "factory-method"
+version = "0.1.0"
+description = "An example of factory method design pattern"
+author = "Cristiano Alexandre"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
