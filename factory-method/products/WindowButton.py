@@ -5,8 +5,8 @@ from products import Button
 class WindowButton(Button):
 
     def render(self) -> None:
-        print("[WindowButton is] -> rendering")
+        print("[WindowsButton is] -> rendering")
 
     def on_click(self, event: Any) -> None:
-        print(f"[WindowButton is]: handling event -> {event}")
+        print(f"[WindowsButton is]: handling event -> {event}")
 
