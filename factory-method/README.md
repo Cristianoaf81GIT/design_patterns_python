@@ -3,7 +3,6 @@
 
 ### factory method: 
  
- ![alt ilustration](./img/example.png, "from refactoring Guru")  
 
 ```bash
 
