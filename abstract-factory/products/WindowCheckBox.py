@@ -1,7 +1,6 @@
-from products import CheckBoxInterface
+from products import CheckBox
 
-class WindowsCheckBox(CheckBoxInterface): #pyright: ignore 
 
+class WindowsCheckBox(CheckBox):
     def paint(self) -> None:
         print("Painting -> [WindowsCheckBox]")
-

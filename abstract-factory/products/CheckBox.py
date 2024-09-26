@@ -1,7 +1,7 @@
 from abc import ABCMeta, abstractmethod
 
-class CheckBoxInterface(metaclass=ABCMeta):
 
+class CheckBox(metaclass=ABCMeta):
     @abstractmethod
     def paint(self) -> None:
         pass

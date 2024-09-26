@@ -1,6 +1,6 @@
-from products import ButtonInterface
+from products import Button
 
-class WindowsButton(ButtonInterface):
 
+class WindowsButton(Button):
     def paint(self) -> None:
         print("Painting -> [WindowsButton]")

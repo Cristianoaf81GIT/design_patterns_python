@@ -1,6 +1,6 @@
-from products import CheckBoxInterface
+from products import CheckBox
 
-class LinuxCheckBox(CheckBoxInterface): #pyright: ignore
 
+class LinuxCheckBox(CheckBox):  # pyright: ignore
     def paint(self) -> None:
         print("Painting [LinuxCheckBox]")

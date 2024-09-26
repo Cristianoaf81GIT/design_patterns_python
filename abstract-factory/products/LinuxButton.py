@@ -1,7 +1,6 @@
-from products import ButtonInterface
+from products import Button
 
-class LinuxButton(ButtonInterface):
 
+class LinuxButton(Button):
     def paint(self) -> None:
         print("Painting -> [LinuxButton]")
-
