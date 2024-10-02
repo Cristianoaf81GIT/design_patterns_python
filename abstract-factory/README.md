@@ -1,2 +1,15 @@
-### This project shows differents types of design_patters implemented in pyhton 3
+### This project is an example from: 
+[refactoringGuru](https://refactoring.guru/pt-br/design-patterns/abstract-factory) 
+
+### factory method: 
+ 
+
+```bash
+
+# to run this example
+
+$ python main.py
+
+```
+
 
