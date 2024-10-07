@@ -18,7 +18,7 @@ class Car:
         return self.__seats
 
     @seats.setter
-    def set_seats(self, seats: int) -> None:
+    def seats(self, seats: int) -> None:
         self.__seats = seats
     
     @property
