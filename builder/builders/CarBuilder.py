@@ -16,11 +16,11 @@ class CarBuilder(AbsctractBuilder):
         self.__car = Car(seats=0, doors=0, manufacturing_date=datetime.now(), model=self.__car.model)
 
     def set_seats(self, seats: int) -> None:
-        print(f"adding {seats} to car...")
+        print(f"adding {seats} seat(s) to car...")
         self.__car.seats = seats
 
     def set_doors(self, doors: int) -> None:
-        print(f"adding {doors} to car...")
+        print(f"adding {doors} door(s) to car...")
         self.__car.doors = doors 
 
     def set_manufacturing_date(self, manufacturing_date: datetime) -> None:
